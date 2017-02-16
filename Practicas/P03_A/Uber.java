@@ -16,7 +16,7 @@ class Uber {
        distancia += driveDistances[i];
     }
       // promedio del consumo de gas por hora
-      gasPromedio *= horas;
+       gasPromedio *= horas;
        gasPromedio /= 100;
 
        //El kilometraje se mide en millas por galón muestra cuántas millas un vehículo puede Viajar en un galón de gas.
