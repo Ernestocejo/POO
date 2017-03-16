@@ -59,7 +59,8 @@ public class Calculadora {
 					}		
 					if(opcion == 4 && dato2 != 0) {
 						System.out.println("Resultado: " + Operacion.Dividir(dato1,dato2));
-					}else System.out.println("No se puede dividir entre 0");
+					}else if (dato2 == 0) System.out.println("No se puede dividir entre 0");
+
 					System.out.println("-------");		
 				}
 			}while (opcion > 0 && opcion < 5);
