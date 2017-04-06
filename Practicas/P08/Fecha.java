@@ -7,7 +7,7 @@ public class Fecha {
 
 	private InputStreamReader isr = new InputStreamReader(System.in);
 	private BufferedReader br = new BufferedReader(isr);
-	//constructores
+	//constructor
 	public Fecha () {
 		//this.ingresaFecha();
 		this.asignarFecha();
