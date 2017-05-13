@@ -21,15 +21,8 @@ public class Lector {
 	}
 
 	public int leeInt() {
-		int valor;
 		try{
-			valor = Integer.valueOf(br.readLine());
-			if(valor < 10 ) {
-				valor = 10
-			}
-
-			return valor;
-			//return Integer.valueOf(br.readLine());
+			return Integer.valueOf(br.readLine());
 		} catch (IOException e) {}
 
 		return 0;
